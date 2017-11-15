@@ -6,10 +6,21 @@ import sys
 import os
 
 #to register our client application with Twitter
-api_key = "Dbf0NKPtMWGcSSzgEb7qkKeqt"
-api_secret = "0sOfDImqTsHiwPAu2BliRlmIAGSAsLPaE6zW3ame3uUEHMr1zG"
-access_token = "916730152435908608-RtnouOBzS3eXypyxhZ91YXUDJ9iNDyf" 
-access_token_secret = "FHDBTwj8wjNo0Kp8MlLcmTD6JOM808f771aFdRpJILjoL"
+#Generate your own keys
+
+#Method to generate keys:
+#Create a twitter account if you do not already have one.
+#Go to https://dev.twitter.com/apps and log in with your twitter credentials
+#Click "Create New App"
+#Fill out the form and agree to the terms.Put in dummy website if you do not have one
+#On Next Page,click "Keys and Access Tokens"tab along the top,then scroll all the way down until you see the section "Your Access Token"
+#Click the button "Create my Access Token"
+#Now copy those values in this file
+#Your consumer key is your api_key and consumer secret key is api_secret key
+api_key = "***********************************************"
+api_secret = "******************************************"
+access_token = "************************************************"
+access_token_secret ="*****************************************"
 
 #creating OAuthHandler instance
 auth = OAuthHandler(api_key, api_secret)
