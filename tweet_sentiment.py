@@ -1,3 +1,9 @@
+#This File contains sentiment scores of those terms which are already present in AFINN-111.txt
+
+#Problem 2:
+#For this part,you will ompute sentiment of each tweet based on sentiment scores of terms in the tweet.The sentiment of tweet is equivalent to sum of sentiment scores of each term in the tweet
+#This file accepts two arguments AFINN-111.txt which is already provided and output.txt which you generated in problem 1
+#You can run this as $python tweet_sentiment.py AFINN-111.txt output.txt
 import sys
 import json
 import error
