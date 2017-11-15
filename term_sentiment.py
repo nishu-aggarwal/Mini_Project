@@ -1,3 +1,7 @@
+#Problem statement-3
+#In this part you will be creating a script that computes the sentiment for the terms that do not appear in AFINN-111.txt file
+#Execute this file as $python term_sentiment.py AFINN-111.txt output.txt
+
 from __future__ import division
 import sys
 import json
